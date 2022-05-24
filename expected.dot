@@ -1,0 +1,16 @@
+digraph G {
+    node_1 [label="2"]
+    node_2 [label="x"]
+    node_5 [label="*"]
+    node_3 [label="3"]
+    node_4 [label="y"]
+    node_6 [label="*"]
+    node_7 [label="-"]
+
+    node_1 -> node_5
+    node_2 -> node_5
+    node_3 -> node_6
+    node_4 -> node_6
+    node_5 -> node_7
+    node_6 -> node_7
+}
